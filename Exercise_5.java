@@ -1,5 +1,8 @@
 import java.util.Stack;
-
+// Time Complexity:
+// partition(): O(N) in worst case, O(log N) in best case
+// QuickSort(): O(N log N) on average due to partitioning
+// Space Complexity: O(log N)
 class IterativeQuickSort { 
     void swap(int arr[], int i, int j) 
     { 
